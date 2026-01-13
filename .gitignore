@@ -1,0 +1,12 @@
+# Byte-compile and cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Env files
+.env
+
+# Editor
+.vscode/

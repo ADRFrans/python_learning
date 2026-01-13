@@ -1,0 +1,14 @@
+# Codex LLM + Agents Learning Project
+
+This repository tracks my end-to-end learning journey from Python refreshers to building LLM-powered tools and agent systems.
+
+## Goals
+- Rebuild Python fundamentals through hands-on projects.
+- Learn how to use LLM APIs safely and reliably.
+- Build agent systems that use tools to accomplish goals.
+- Create reusable templates for future client work.
+
+## Project Structure
+- LEARNING_PLAN.md - full learning plan and phases.
+- LEARNING_STATE.md - current progress and next steps.
+- LEARNING_HISTORY.md - prompt history and struggles log.
