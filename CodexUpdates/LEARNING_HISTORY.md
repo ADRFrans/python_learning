@@ -38,11 +38,37 @@
 - Prompt: "just do the random skills" | Response: Clarified options; updated to exactly 2 skills.
 - Prompt: "checkout the entire file now" | Response: Confirmed updates and readiness to proceed.
 
+## Lesson 6 (Modules + imports)
+- Prompt: "How do I import from another file?" | Response: Explained from utils import syntax and file structure.
+- Prompt: "re check" | Response: Found functions still in Lesson 6; advised moving to utils.
+- Result: utils.py contains is_even/sum_evens; Lesson 6 imports and prints sum.
+
+## Lesson 7 (File parsing + stats)
+- Prompt: "Done check lesson_7" | Response: Suggested skipping blanks and computing stats.
+- Result: Added count/sum/min/max/avg functions.
+
+## Lesson 8 (Word frequency)
+- Prompt: "not getting each word" | Response: Identified utils.py mixup and dictionary logic.
+- Prompt: "hint for build_dictionary" | Response: Explained counting pattern.
+- Result: Word counts working; moved list scope; text file contains sample sentences.
+
+## Lesson 9 (Exceptions + input)
+- Prompt: "need a hint for step 2" | Response: Provided while-true try/except pattern.
+- Result: Input validation for two numbers; arithmetic outputs with divide-by-zero guard.
+
+## Lesson 10 (Classes)
+- Prompt: "constructor in python" | Response: Explained __init__.
+- Result: Profile class with summary; created multiple instances.
+
+## Lesson 11 (List of objects + filter)
+- Prompt: "How do I work with the list and the objects inside?" | Response: Explained has_skill and loop.
+- Result: Method name mismatch remains (has_skills vs has_skill).
+
+## Lesson 12 (JSON save/load)
+- Prompt: "Step 3 I have no idea" | Response: Gave json.dump example.
+- Result: JSON saved to data/profiles.json and loaded back.
+
 ## Session wrap-up
-- Prompt: "done for today update .md files" | Response: Updated state to pause before Lesson 6.
-- Prompt: "Learning_History should be a log" | Response: Switched to cumulative session logging.
-- Prompt: "include my prompts and a small glimpse of how you answered" | Response: Confirmed and added prompt/response summaries.
-- Prompt: "redo history as full session log" | Response: Rewrote history with prompts, actions, results, learnings.
-- Prompt: "also what the lessons were" | Response: Added lesson titles/descriptions.
-- What was learned: Python basics (variables, lists/dicts, functions, control flow), input validation, file I/O, simple aggregation, random selection.
-- Next session: Start Lesson 6 with modules/imports in breadcrumb mode.
+- Prompt: "rename all the lesson files" | Response: Renamed to descriptive filenames.
+- What was learned: modules/imports, file parsing, word frequency, exceptions, classes, JSON I/O.
+- Next session: fix Lesson 11 method name; start Lesson 13 (HTTP requests).

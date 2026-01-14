@@ -1,3 +1,5 @@
+import json
+
 def is_even(n):
     if n % 2 == 0:
         return True
@@ -13,3 +15,21 @@ def sum_evens(numbers):
             #if even, add to total
             total += number
     return total
+
+# read a local file 
+def read_from_file(file_name):
+    with open(file_name, 'r') as file:
+        content = file.read()
+    return content
+
+#dumps a dictionary into a json format 
+
+def save_to_file(file_name, string):
+    with open(file_name, 'w') as file:
+        json.dump(string, file, indent=2)
+
+# read a file and convert it back to python object
+def read_from_file(file_name):
+    with open(file_name, 'r') as file:
+        content = json.load(file)
+    return content
