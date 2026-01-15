@@ -1,61 +1,107 @@
-# Codex Learning Plan
+# Learning Plan
 
-## Overview
-This plan teaches Python fundamentals alongside practical LLM development, then builds toward agent systems you can apply to any future workflow.
+A beginner-friendly path from Python foundations to building a small LLM, then on to APIs and agents. You do the coding; I review and guide unless you ask for code.
 
-## Phase 1: Python + LLM Foundations (Weeks 1-3)
-Goal: refresh Python and understand how LLMs work at a practical level.
-- Python refresh: variables, functions, lists/dicts, classes, file IO, virtual environments.
-- LLM basics: tokens, context windows, transformer intuition, hallucinations.
-- Prompting basics: instruction vs context, few-shot prompts, structured outputs.
-Deliverables:
-- A simple CLI script that sends a prompt and prints JSON output.
-- A short note describing what causes hallucinations and how to reduce them.
+## How we'll use this plan
 
-## Phase 2: LLM APIs + RAG (Weeks 4-6)
+- You work through steps in order.
+- After each milestone, we log progress in history.md.
+- If something feels too fast or too slow, we adjust and update this plan.
+
+## Pace guidelines
+
+- Aim for 3 to 5 short sessions per week (30 to 60 minutes each).
+- Focus on one topic at a time until it feels comfortable.
+- Build tiny things early and often.
+
+## Phase 1: Python Foundations (Complete)
+
+Goal: build core Python fluency needed for LLM work.
+
+Topics
+- Variables, functions, lists/dicts, classes, control flow.
+- File I/O, parsing, JSON.
+- Modules/imports, basic error handling.
+
+Checkpoints
+- You can read/write files and parse data.
+- You can structure code into functions and modules.
+
+## Phase 2: Build a Small LLM from Scratch (Current)
+
+Goal: understand how an LLM works by building a tiny model end-to-end.
+
+Lessons (suggested sequence)
+- Text data + tokenization (character-level).
+- Bigram model (counts -> probabilities).
+- Sampling text from probabilities.
+- Simple neural model (optional, pure Python).
+- Tiny neural net (numpy).
+- Evaluate loss + overfitting basics.
+- Save/load model parameters.
+- Tiny transformer (PyTorch, optional).
+
+Deliverables
+- A char-level bigram model that can generate text.
+- A tiny neural model that improves over bigram.
+- A short write-up on what changes improved output.
+
+## Phase 3: LLM APIs + RAG
+
 Goal: build reliable apps using hosted LLMs.
-- Use an LLM API (OpenAI/Anthropic/etc.).
-- Learn retries, rate limits, and cost tracking.
-- Embeddings + vector search for retrieval-augmented generation (RAG).
-Deliverables:
+
+Topics
+- LLM API usage.
+- Retries, rate limits, cost tracking.
+- Embeddings + vector search (RAG).
+
+Deliverables
 - Q&A over a small set of local docs.
 - A text-to-JSON extractor for structured data.
 
-## Phase 3: Agent Basics (Weeks 7-9)
+## Phase 4: Agent Basics
+
 Goal: learn the agent loop and tool use.
-- Agent loop: plan -> act (tools) -> observe -> refine -> finalize.
+
+Topics
+- Agent loop: plan -> act -> observe -> refine -> finalize.
 - Tool integrations: files, APIs, databases.
-- Guardrails: validation, tool permissions, and human-in-the-loop checks.
-Deliverables:
+- Guardrails and human-in-the-loop checks.
+
+Deliverables
 - A small agent that can call tools and update its plan.
 
-## Phase 4: Reliability + Evaluation (Weeks 10-12)
+## Phase 5: Reliability + Evaluation
+
 Goal: make agent systems reliable and testable.
-- Evaluation datasets (good/bad examples).
-- Output validation with schemas.
+
+Topics
+- Evaluation datasets.
+- Output validation.
 - Failure handling and retries.
 - Monitoring for latency, cost, quality.
-Deliverables:
+
+Deliverables
 - A prompt test suite.
 - A reliability report with failure patterns.
 
-## Phase 5: Capstone Agent Framework (Weeks 13-16)
+## Phase 6: Capstone Agent Framework
+
 Goal: build a reusable agent template.
+
+Deliverable
 - An agent runner that takes a goal, selects tools, executes, validates, and reports.
-Deliverable:
-- A reusable agent starter template.
 
 ## Tools and Language
+
 - Primary language: Python.
 - Optional later: TypeScript for web integrations.
 
-## Weekly cadence
-- 2-3 short theory blocks.
-- 1 hands-on build.
-- 1 review/reflection session.
+## Session continuity
 
-## First steps (Week 1)
-- Install VS Code Python extension.
-- Verify Python install.
-- Create a project folder and virtual environment.
-- Write and run a basic Python script.
+- When you ask "Where did we leave off" or for "next steps", I will read both history.md and LearningPlan.md before answering.
+- Response format: short recap of the last session completed, then next steps.
+- I will update history.md and LearningPlan.md during the session (as needed) and at the end of each session without prompting.
+- At logical checkpoints, I will prompt you to update your git repo (status/add/commit, and push if desired).
+- I will also surface git commands at random moments for practice (status/diff/add/commit/push).
+- Next step rule: The first time you ask for "next step(s)" in a session, I will follow the current Next step in history.md. If you ask again in the same session, I will advance to the next logical step and update both history.md and LearningPlan.md.
