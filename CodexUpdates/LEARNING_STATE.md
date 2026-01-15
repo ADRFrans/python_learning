@@ -1,15 +1,14 @@
 # Codex Learning State
 
 ## Current focus
-- Lesson 14: HTTP params + error handling (add guard for None before printing age).
+- Phase 2 start: build a small LLM from scratch (tokenization + bigram model).
 
 ## Last completed
-- Lesson 13: basic HTTP request + JSON parsing.
-- Lesson 14: added params + status check; needs final None guard.
+- Phase 1 complete: Python foundations + HTTP basics + env keys.
+- Renamed Phase 1 lesson files to short numeric names.
 
 ## Next steps
-- Add a None guard before accessing person["age"].
-- Lesson 15: .env + API keys.
+- Phase 2 Lesson 1: text data + tokenization (char-level).
 
 ## Notes
 - Breadcrumb mode: user writes all code; assistant gives hints only.
