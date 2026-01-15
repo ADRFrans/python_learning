@@ -1,4 +1,4 @@
-from src.phase_1.utils import read_from_file
+from utilities.utils import read_from_file
 
 # use the read_from_file function to read the contents of 'data/text.txt'
 # then create a variable file to hold the contents

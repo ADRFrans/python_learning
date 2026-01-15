@@ -22,10 +22,10 @@ This file is maintained by the assistant to track your progress so we can resume
 
 - Date: 2026-01-15
 - Current milestone: Phase 2 (Build a small LLM from scratch)
-- What you worked on: Wrapped up Phase 1, renamed lesson files, updated plan structure, installed Ollama.
+- What you worked on: Learned tokenization concepts; built stoi/itos mappings; encoded and decoded text.
 - What felt easy:
 - What felt confusing:
-- Next step: Phase 2 Lesson 1: text data + tokenization (character-level).
+- Next step: Phase 2 Lesson 2: bigram model (counts -> probabilities).
 
 ## Log
 
@@ -38,3 +38,4 @@ This file is maintained by the assistant to track your progress so we can resume
 - 2026-01-15: Renamed Phase 1 lessons to short numeric names in src/phase_1.
 - 2026-01-15: Consolidated plan/state/history to C:\Codex\CodexUpdates only.
 - 2026-01-15: Updated Phase 2 to focus on building a small LLM from scratch.
+- 2026-01-15: Completed Phase 2 Lesson 1 (tokenization, stoi/itos, encode/decode).

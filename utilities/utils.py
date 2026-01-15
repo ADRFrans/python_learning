@@ -29,7 +29,11 @@ def save_to_file(file_name, string):
         json.dump(string, file, indent=2)
 
 # read a file and convert it back to python object
-def read_from_file(file_name):
+def read_from_file_json(file_name):
     with open(file_name, 'r') as file:
         content = json.load(file)
     return content
+
+# simple way to open a file and set its contents to a vriable.
+with open("data/phase_2_data/corpus.txt", "r") as f:
+    text = f.read()
