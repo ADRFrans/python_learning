@@ -22,10 +22,10 @@ This file is maintained by the assistant to track your progress so we can resume
 
 - Date: 2026-01-15
 - Current milestone: Phase 2 (Build a small LLM from scratch)
-- What you worked on: Learned tokenization concepts; built stoi/itos mappings; encoded and decoded text.
+- What you worked on: Built bigram counts table and converted counts to row-wise probabilities.
 - What felt easy:
 - What felt confusing:
-- Next step: Phase 2 Lesson 2: bigram model (counts -> probabilities).
+- Next step: Phase 2 Lesson 3: sampling next characters from probabilities.
 
 ## Log
 
@@ -39,3 +39,5 @@ This file is maintained by the assistant to track your progress so we can resume
 - 2026-01-15: Consolidated plan/state/history to C:\Codex\CodexUpdates only.
 - 2026-01-15: Updated Phase 2 to focus on building a small LLM from scratch.
 - 2026-01-15: Completed Phase 2 Lesson 1 (tokenization, stoi/itos, encode/decode).
+- 2026-01-15: Reviewed bigram count table concept and how to fill counts.
+- 2026-01-15: Implemented bigram probabilities (row-wise normalization).
