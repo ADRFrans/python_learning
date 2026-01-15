@@ -10,3 +10,6 @@ __pycache__/
 
 # Editor
 .vscode/
+
+# API Key
+.env
