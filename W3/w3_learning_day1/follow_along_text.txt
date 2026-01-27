@@ -357,3 +357,99 @@ Strings:
 x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
+
+python Strings 
+
+Strings
+Strings in python are surrounded by either single quotation marks, or double quotation marks. 
+'hello' is the same as "hello"
+you can display a string literal with the print() function: 
+
+Example 
+print("Hello")
+print('Hello')
+
+Quotes inside Quotes 
+you can use quotes inside a string, as long as they don't match the quotes surrounding the string: 
+print("it's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"')
+
+ASsign string to a variable 
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string: 
+
+example 
+a = "Hello"
+print(a)
+
+MultiLine Strings 
+you can assign a multiline string to a variable by using three quotes: 
+Example 
+You can use three double quotes: 
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+or three single quotes 
+exampel 
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+
+Note: in the result, the line breaks are inserted at the same position in the code.
+
+Strings are Arrays 
+Like many other popular programming languages, strings in Python are arrays of unicode characters. 
+However, python does not have a character data type, a single character is simply a string with a  length of 1. 
+square brackets can be used t oaccess elements of the string. 
+
+Example 
+Get the character at position 1 (remember that the first character has the postion 0 )
+a = "Hello, world!"
+print(a[1])
+
+Looping through a string 
+Since strings are arrays, we can loop through the character in a string, with a for loop. 
+
+Example
+Loop through the letters in the word "Banana"
+for x in "banana":
+    print(x)
+String Length 
+to get the length of a string, use the len() function. 
+
+Example 
+the len() function returns the length of a string: 
+a= "Hellow "
+print(len(a))
+
+Check String 
+To check if a certain phrase or character is present in a string, we can use the keyword in. 
+
+example 
+check if free is present in the following text: 
+txt = The Best things in life are free!
+prin("free" in txt)
+
+Use it in an if statement: 
+
+Example 
+print only if free is present: 
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+
+Check if NOT
+To Check if a certain phrase or character is NOT present in a string, we can use the keyword not in. 
+Example 
+Check if "expensive" is NOT present in the following text: 
+txt = "The Best things in life are free!"
+print("expensive" not in txt)
+
+use it in an if statement: 
+
+Example print only if expensive is notpresent: 
