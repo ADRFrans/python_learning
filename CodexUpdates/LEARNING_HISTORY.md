@@ -20,12 +20,12 @@ This file is maintained by the assistant to track your progress so we can resume
 
 ## Current status
 
-- Date: 2026-01-15
+- Date: 2026-01-27
 - Current milestone: Phase 2 (Build a small LLM from scratch)
-- What you worked on: Built bigram counts table and converted counts to row-wise probabilities.
+- What you worked on: Completed Phase 2 Lesson 3 (sampling from probabilities) and Lesson 4 (simple neural model, pure Python).
 - What felt easy:
 - What felt confusing:
-- Next step: Phase 2 Lesson 3: sampling next characters from probabilities.
+- Next step: Phase 2 Lesson 5: tiny neural net (numpy).
 
 ## Log
 
@@ -41,3 +41,4 @@ This file is maintained by the assistant to track your progress so we can resume
 - 2026-01-15: Completed Phase 2 Lesson 1 (tokenization, stoi/itos, encode/decode).
 - 2026-01-15: Reviewed bigram count table concept and how to fill counts.
 - 2026-01-15: Implemented bigram probabilities (row-wise normalization).
+- 2026-01-26: Completed Phase 2 Lesson 3 (sampling) and Lesson 4 (simple neural model).

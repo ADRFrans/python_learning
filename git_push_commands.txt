@@ -1,0 +1,22 @@
+# Git push quick reference
+
+# Check status
+# git status
+
+# See what changed
+# git diff
+
+# Stage changes (all)
+# git add .
+
+# Or stage a single file
+# git add path\to\file.py
+
+# Commit with a message
+# git commit -m "Your message"
+
+# Push to the current branch
+# git push
+
+# First-time push for a new branch
+# git push -u origin <branch-name>
