@@ -329,3 +329,11 @@ print("expensive" not in txt)
 txt = "The best things in life are free!"
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.")
+
+#Lesson - Python - Slicing Strings
+b = "Hello, World!"
+print(b)
+print(b[2:5])
+print(b[:5])
+print(b[2:])
+print(b[-5:-2])

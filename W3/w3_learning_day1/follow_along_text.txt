@@ -453,3 +453,41 @@ print("expensive" not in txt)
 use it in an if statement: 
 
 Example print only if expensive is notpresent: 
+
+Lesson Python - Slicing Strings 
+Slicing 
+You can return a range of characters by using the slice syntax 
+specify the start index and end index, separated by a colon, to return a part of the string. 
+
+Example 
+get the characters from position 2 to poistion 5(not included)
+
+b="Hello, world!"
+print(b[2:5])
+
+Note: The First character has index 0.
+
+Slice from the start 
+By leaving out the start index, the range will start at the first character:
+
+Example 
+get the characters from the start to position 5(not included): 
+
+b = "Hello, world"
+print(b[:5])
+
+Slice to the end 
+by leaving out the end index, the range will go to the end: 
+Example 
+get the characters from position 2, and all the way to the end: 
+b = "Hello, world"
+print(b[2:])
+
+Negative indexing 
+Use negative indexes to start the slice from the end of the string: 
+Example 
+get the characters 
+from: "o" in "world!" (position -5)
+To, but not included: "d" in "World!" (position -2):
+b = "Hello, world"
+print(b[-5:2])
