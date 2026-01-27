@@ -491,3 +491,40 @@ from: "o" in "world!" (position -5)
 To, but not included: "d" in "World!" (position -2):
 b = "Hello, world"
 print(b[-5:2])
+
+Lesson Python - Modify Strings 
+python has as et of built- in methods that you can use on strings.
+
+Upper case
+Example 
+The Upper() method returns the string in upper case: 
+a = "Hello, World!"
+print(a.upper())
+
+Lower 
+Example 
+the lower() method returns the string in lower case: 
+a = "Hello,world"
+print(a.lower())
+
+Remove WhiteSpace 
+WhiteSpace s the space before and/ or after the actual text, and very often you want to remove this space. 
+
+Example 
+The Strip() method removes any whitespace from the beginning or the end: 
+a = "hello,world"
+print(a.stri())
+
+Replace String 
+Example 
+The Replace() method replaces a string with another string: 
+a = "" 
+print a.replace("H", "J")
+
+Split String 
+The split() method returns a list where the text between the specified separator becomes the list items 
+
+Example 
+The split() method splits the string into substrings if it finds instances of the separator: 
+a = "" 
+print(a.split(","))

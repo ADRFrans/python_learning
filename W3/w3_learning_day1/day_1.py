@@ -337,3 +337,10 @@ print(b[2:5])
 print(b[:5])
 print(b[2:])
 print(b[-5:-2])
+
+a = "Hello, World!"
+print(a.upper())
+print(a.lower())
+print(a.strip())
+print(a.replace("H", "J"))
+print(a.split("l"))
