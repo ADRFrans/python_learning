@@ -20,3 +20,48 @@ The replce() method replaces a string with another string
 
 Split Strig 
 The Split() method returns a list where the text between the specified separator becomes the lis items 
+
+Lesson - Python - String Concatenation 
+
+String Concatenation 
+To concatenate, or combine, two strings you can use the + operator 
+
+Lesson - Formay Strings 
+String Format 
+as we learned in the python variables chapter, we cannot combine strings and numbers like this: 
+age = 36
+txt = "My name is john, I am " + age 
+print(txt)
+
+but we can combine strings and numbers using f-strings on the format() method 
+
+F- Strings 
+F- string was introduced in Python 3.6 and is now the preferred way of formatting strings. 
+To specify a string as an f-string simply put an f in font of the string literal, and add curly brackets as placeholders for varaibles and other operations 
+
+PlaceHolders and Modifiers 
+A PLaceHolder can contain variables, operations, functions, and modifiers to format the value 
+
+Example 
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+A placeholder can include a modifier to format the value 
+A modifier is included by adding a : followed by a legfal format type like .2f which means fixed point number with 2 decimals: 
+
+Example
+Display the price with 2 decimals:
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+A placeholder can contain python code, like math operations: 
+
+Example 
+
+Perform a math operation in the placeholder, and return the result:
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
