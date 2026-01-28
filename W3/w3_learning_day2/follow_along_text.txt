@@ -65,3 +65,87 @@ Perform a math operation in the placeholder, and return the result:
 
 txt = f"The price is {20 * 59} dollars"
 print(txt)
+
+Escape Character 
+Escape characters 
+to insert characters that are illegal in a string use and escape character. 
+An Escape charater s a backslah \ followed by the character you want to insert. 
+an example of an illegal character is a double quote inside a string that is surrounded by double quotes: 
+
+Example 
+txt = "We are the so-called "Vikings" from the north."
+
+Tp fix this problem, use the exacpe character \" 
+
+Example
+The escape character allows you to use double quotes when you normally would not be allowed:
+
+txt = "We are the so-called \"Vikings\" from the north."
+
+Lesson Python Booleans 
+Booleans represent one of two values: True or false 
+Boolean Values 
+In programming you often need to know if an expression is true or false.
+You can evaluate any expression in Python, and get one of two answers, true or false. 
+When you compare two values, teh expression is evaluatd and Python returns the boolean answer: 
+
+Example 
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+When you run a condition in an if statement, Python returns True or false
+
+Example 
+Print a message based on whether the condition is True or False 
+a = 200 
+b = 33 
+if b> a: 
+    print()
+else: 
+    print()
+
+evaluate values and Variables 
+
+The bool() function you to evaluate any values, and give you true or false in return 
+print(bool("Hello"))
+print(bool(15))
+
+Example 
+Evalue two vars
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+Most Values are True 
+Almost any value is evaluated to True if it has some sort of content. 
+Any Strng is True, except empty strings. 
+Any Number is True, Except 0. 
+Any List Tuple Set and dictionary are true, except empty ones 
+
+Somve values are false 
+In fact, there are not many values  that evaluate to false, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value false evaluates to false. 
+
+One more value, or object i this case, evaultes to false, and that is if you have an object that is mafe for from 
+class with a __len__ function that returns 0 or false: 
+
+functions can return a Boolean 
+You can crate functions that returns a bool value 
+Example 
+print the aswer of a function 
+def myFunction() : 
+    return true 
+print(myFunction())
+
+You can execute code based on the Boolean answer of a function: 
+
+Example 
+Print "YES" if the function returns true, otherwise print No 
+
+de myfunc
+
+Pythonm also has many built in functions that return a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type: 
+x = 200 
+print(isinstance(x, int))
