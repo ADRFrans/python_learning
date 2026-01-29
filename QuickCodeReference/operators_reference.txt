@@ -1,0 +1,48 @@
+Python operators covered (from day_3.py + follow_along_text.txt)
+Location: C:\Users\Andre\Learning\python_learning\W3\w3_learning_day3
+Last updated: 2026-01-29
+
+Arithmetic
+- +   addition
+- -   subtraction
+- *   multiplication
+- /   division (float)
+- %   modulus (remainder)
+- **  exponentiation
+- //  floor division (int)
+
+Assignment expression
+- :=  walrus operator (assign inside an expression)
+
+Comparison
+- ==  equal
+- !=  not equal
+- >   greater than
+- <   less than
+- >=  greater than or equal
+- <=  less than or equal
+- Chaining example: 1 < x < 10
+
+Logical
+- and  True if both sides are True
+- or   True if either side is True
+- not  flips True/False
+
+Identity
+- is      True if both variables point to same object
+- is not  True if variables point to different objects
+
+Membership
+- in      True if item is in a sequence/collection
+- not in  True if item is not in a sequence/collection
+
+Conditional expression
+- a if condition else b  choose a or b based on condition
+
+Indexing / slicing
+- x[i]        index access
+- x[-1]       negative index (from end)
+- x[a:b]      slice (start inclusive, end exclusive)
+- x[:b]       slice from start
+- x[a:]       slice to end
+- x[a:b:c]    slice with step

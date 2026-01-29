@@ -1,0 +1,54 @@
+Python list quick reference 
+
+Create lists
+- [] literal, create an empty list
+- list() constructor, build a list from an iterable
+
+Length and type
+- len(my_list)  number of items
+- type(my_list) data type check
+
+Indexing and slicing
+- my_list[i]      item by index
+- my_list[-1]     last item
+- my_list[a:b]    slice (start inclusive, end exclusive)
+- my_list[:b]     slice from start
+- my_list[a:]     slice to end
+- my_list[-4:-1]  slice with negative indexes
+
+Membership check
+- "apple" in my_list        True if item exists
+- "pineapple" not in my_list True if item is missing
+
+Update items
+- my_list[i] = value       replace one item
+- my_list[a:b] = [v1, v2]  replace a slice
+
+Add items
+- my_list.append(value)            add to end
+- my_list.insert(index, value)     insert at index
+- my_list.extend(other_list_or_tuple) add all items from another iterable
+
+Remove items
+- my_list.remove(value)   remove first matching value
+- my_list.pop(index)      remove item by index
+- my_list.pop()           remove last item
+- del my_list[index]      delete item by index
+- del my_list             delete the whole list variable
+- my_list.clear()         remove all items
+
+Looping
+- for x in my_list:                 loop over items
+- for i in range(len(my_list)):     loop over indexes
+- while i < len(my_list):           loop with manual index
+- [print(x) for x in my_list]       list comp used for side effects
+
+List comprehensions
+- [x for x in items]                    copy/transform
+- [x for x in items if condition]       filter
+- [x.upper() for x in items]            transform to upper
+- [x if condition else y for x in items] conditional transform
+
+Range with list comp
+- [x for x in range(10)]            build list from 0..9
+- [x for x in range(10) if x < 5]   filter range values

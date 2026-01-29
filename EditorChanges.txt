@@ -1,0 +1,7 @@
+ctrl + , to get to settings 
+
+editor.acceptSuggestionOnEnter - off from on 
+editor.acceptSuggestionOnCommitCharacter - false from true 
+editor.quickSuggestions - milliseconds to 100 from 10 
+editor.inlineSuggest.enabled -> false from true 
+editor.snippetSuggestions - > none from Inline

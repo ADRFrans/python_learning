@@ -7,6 +7,7 @@ print(a.strip())
 print(a.replace("H", "J"))
 print(a.split(","))
 
+
 # Lesson - Python - String Concatenation
 a = "Hello"
 b = "World"

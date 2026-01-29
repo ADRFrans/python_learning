@@ -274,3 +274,31 @@ remember to increase the index by 1 after each iteration.
 Looping using list comprehension 
 List comprehension offers the shortest syntax for looping throguh lists: 
 
+List comprehension  offers a shorter syntax when you want to create a new list based on the values of an existing list 
+Example: 
+Based on a ist of fruits, you want a new list, containing only the fruits with the letter "a" in the name. 
+without list comprehension you will have to wite a for statement witha conditional test inside: 
+
+with list comprehension you can do all tat with only one line of code: 
+
+The Syntax newlist = [exression for item in iterable if condition == true]
+
+The return value is a new list, leaving the old list unchanged
+
+Condition is like a filter tat only accepts the items that evaluate to true. 
+
+the condition if x != "apple" will return true for all elements other than "apple", making the new list contain all fruits except "apple"
+the condition is optional and can be omitted:
+
+iteravble 
+the iterable can be any iterable object, like a list, tuple, set etc 
+
+Expression 
+The Expression is the current item in the iteration, but it is also the outcome, which you can manipulate before it ends up like a list item in the new list: 
+
+you can set the outcome to whatever you like: 
+
+The Expression can also contain conditions not like a filter but as a way to manipulate the outcome: 
+
+The Expression in the example above says 
+return the item if it is not banana, if it is banana return orange. 
