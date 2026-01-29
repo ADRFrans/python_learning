@@ -153,3 +153,51 @@ print(thislist[2:])
 
 #Example - This example returns the items from "orange" (-4) to, but not including mango
 print(thislist[-4:-1])
+
+#Example 
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+    print("yes, apple is in the fruits list")
+
+# Example - change the second item: 
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+
+#Example - change the values "banana" and "cherry" with the values "blackcurrant" and "watermelon"
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+#Example change the second value by replacing it with two new values: 
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+#Example - Insert "watermelon" as the third item: 
+thislist = ["apple", "banana", "cherry "]
+thislist.insert(2, "watermelon")
+print(thislist)
+
+#Example - Using the append() method an item: 
+thislist = ["","",""]
+thislist.append("orange")
+print(thislist)
+
+#Example - Insert an item as the second position: 
+t = ["","",""]
+t.insert(1,"")
+print(t)
+
+#Example - Add the elements of tropical to thelist: 
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+
+#Example - add elements of a tuple to a list: 
+
+thistuple = ("kiwi","orange")
+thislist.extend(thistuple)
+print(thislist)
