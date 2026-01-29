@@ -99,3 +99,57 @@ print(100 + 5 * 3)
 #Example 
 #Addition + and subtracton - has the same precedence, and therefore we evaluate the expression from left to right: 
 print(5 + 4 - 7 + 3)
+
+#python lists 
+#Example 
+thislist = ["","",""]
+print(thislist)
+
+#Example 
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
+
+#Exampole 
+print (len(thislist))
+
+#Example 
+list1 = ["","",""]
+list2 = [1, 5, 7, 7, 8]
+list3 = [True,False,True]
+
+#Example - a list with strings, int and bool
+list1 = ["abc", 34, True, 40 , "male"]
+
+#Example - what is the data type of a lit 
+
+print(type(list1))
+
+#Example - Using the list() constructor to make a list 
+thislist = list(("apple","banana", "cherry"))
+
+print(thislist)
+
+#Lesson Access List Items 
+
+#Example - Print the second item of the list: 
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+
+#example 
+print(thislist[-1])
+
+#Example 
+thislist = ["apple", "banana", "cherry","apple", "banana", "cherry"]
+print(thislist[2:5])
+
+#Example 
+thislist = ["apple", "banana", "cherry","apple", "banana", "cherry"]
+
+print(thislist[:4])
+
+
+#Example - by leaving ou the end value, the range will go on to the end of the list 
+print(thislist[2:])
+
+#Example - This example returns the items from "orange" (-4) to, but not including mango
+print(thislist[-4:-1])

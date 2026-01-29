@@ -113,3 +113,14 @@ not	Logical NOT
 and	AND	
 or	OR	
 
+Left-to-right evaluation
+If two operators have the same precedence, the expression is evaluate3d from left to right 
+
+Python Lists 
+mylist = ["","",""]
+
+List 
+lists are used to store multiple items in a single variable 
+lists are one of 4 built in data types in python used to store collections of data, the other 3 
+are tuple, set, and dictionary, all with different qualities and usage. 
+Lists are created using square brackets: 
