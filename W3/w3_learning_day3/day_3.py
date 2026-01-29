@@ -201,3 +201,54 @@ print(thislist)
 thistuple = ("kiwi","orange")
 thislist.extend(thistuple)
 print(thislist)
+
+#lesson remove list items 
+
+#example - remove banana
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+#Example - remove the first occurrence of " banana"
+thislist.remove("banana")
+print(thislist)
+
+
+#Example - remove the second item: 
+thislist.pop(1)
+print(thislist)
+
+thislist.pop()
+print(thislist)
+
+#Example - remove the first item: 
+del thislist[0]
+print(thislist)
+
+#Example - delete the entire list: 
+thislist = ["apple", "banana", "cherry"]
+del thislist
+
+#Example - clear the list content 
+thislist.clear() 
+print(thislist)
+
+#lesson - looping lists 
+
+#Example 
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+    print(x)
+
+for i in range(len(thislist)):
+    print(thislist[i])
+
+#Example  - print all items, using a while loop to go through all the index numbers
+
+i = 0 
+while i < len(thislist):
+    print(thislist[i])
+    i= i + 1
+
+#Example - a short hand for loop that will print all items in a listS
+[print(x) for x in thislist]

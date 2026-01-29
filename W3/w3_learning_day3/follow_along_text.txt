@@ -123,4 +123,154 @@ List
 lists are used to store multiple items in a single variable 
 lists are one of 4 built in data types in python used to store collections of data, the other 3 
 are tuple, set, and dictionary, all with different qualities and usage. 
-Lists are created using square brackets: 
+Lists are created using square brackets: '
+
+list items are ordered, changeable, and allow duplicate values.
+List items are indexedf, the first item has index [0]. the second item has index [1] etc. 
+
+Oredered 
+When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+if you add new items to a list, the new items will be placed at the end of the list. 
+
+Note: there are some list methods that wll change the order, but in gerneal: the order of the items will not change. 
+
+Changeable 
+Thie list is changeable, meaning that we can change, add and remove items in a list after it has been created. 
+
+Allow duplicates 
+Since lists are indexed, lists can have items with the same value: 
+
+Example Lists allow duplicate values: 
+
+List Length 
+To determine how many items a list has, use the len() function: 
+
+List Items - Data Type s
+list items can be of any data type 
+
+A list can contain different data types: 
+
+type(
+    from pythons perspective, lists are defined as objects with the data type list 
+    class 'list'
+)
+
+The list() constructor 
+it is also possible to use the list() constructor when creating a new list. 
+
+Py collections(Arrays) 
+
+There are four collection data type sin the python programming language: 
+List is a collection which is ordered and changeable. Allows duplicate members. 
+Tuplle is a colletion which is ordered and unchangeable. Allows duplicate mems 
+Ser is a collection which is unorderede, unchangeable and unindexed no duplicate members 
+Dictionary is a collection which is orderd and changable no duplicate memebers 
+
+Python - Access List Items 
+
+Access Items 
+List items are indexed and you can access them by referring to the index number: 
+
+note the first item has index 0 
+
+Negative Indexing 
+Negative indexing means start from the nd 
+
+-1 referes to the last item, -2 refers to the second last item etc. 
+
+range of indexs you can specify a range of indexes by specifying where to start and where to end the range. 
+when specifying a range, the return value will be a new lst with the specified items. 
+
+Note: the search will start at index 2(included) and end at index 5 not included 
+
+remember that the firs titem has index 0 
+
+by leabing out the start value, the range will start at the first item: 
+
+by leaving out the nd value, the reange will gon on to the end of the list: 
+
+Range of negative indexes 
+specify negative indexes if you want to start the search from the end of the list: 
+
+check if item exists 
+to determine if a specified item is present in a list use the in keyword: 
+
+Lesson Change item value 
+
+Change Item value 
+To change the value of a specific item, refere to the index number: 
+
+Change a range of items vaues 
+to change the value of items within a specific range, define a list with  the new values, and refer to the range of the index umver where you want
+to insert the ne wvalues 
+
+if you insert more than you replace, the items will be inserted where you specifiec, and the reamining items iwll move accordingly: 
+
+Note: the length of the list will change when the number of items inserted does not match the number of items replaced
+
+if you insert less items than you replace the new items will be inserted where you specified, and the remaining items will move accordingly: 
+
+Inser items 
+to insert a new list item, without replacing any of the existing values, we can use the isnert() method. 
+The insert() method inserts an tem at the specified index: 
+
+Note: as a result of the example above, the list will now contain 4 items 
+ 
+ Lesson - Python - add list items 
+ Append items 
+ to add an item to thje end of the list, use the append() method: 
+
+ Insert items 
+ to insert a list item at a specified index, use the insert() methods 
+ the insert() method inserts an item at the soecifiec index: 
+
+ Note: as a result of the examples above, the list will now contain 4 items.
+
+ Extend list 
+ To append elements from list to the current list, use the extend() method. 
+
+ The elements will be added to the end of the list. 
+
+ Add any iterable 
+ The extend() method does not have to append lists, you can add any iterable object(tuples, sets, dictionaries, etc.)
+
+ Lesson Python - Remove List items 
+
+ Removfe Specified item 
+ the remove() method removes the specified itme. 
+
+ if there are more than onte item with the specified value, the remove() method removes the first occurrence: 
+
+remove specified index
+the pop() method removes the specified index
+
+if you do not specify the index, the poo() method temoves the last item 
+
+The del keyword also removes the specified index: 
+
+Clear the list 
+The ckear ()method empites the list. 
+The list still remains, but t hase no content. 
+
+Example Clear the list content: 
+
+Pytthon - loop lists 
+
+Loop through a list 
+
+you can loop through the list items by using a for loop: 
+
+loop through the index numbers 
+you can also loop through the list items by referring to their index number. 
+Use the range() and len() functions to create a suitable iterable. 
+
+the iterable created in the example above is [0, 1, 2]
+
+Using a while loop you can loop through the list items by using a while loop. 
+Use the Len() function to determine the length of the list, then start at 0 and loop your way though the list items
+by referring to their indexes 
+remember to increase the index by 1 after each iteration. 
+
+Looping using list comprehension 
+List comprehension offers the shortest syntax for looping throguh lists: 
+
