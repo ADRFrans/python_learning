@@ -12,3 +12,5 @@ This repository tracks my end-to-end learning journey from Python refreshers to 
 - LEARNING_PLAN.md - full learning plan and phases.
 - LEARNING_STATE.md - current progress and next steps.
 - LEARNING_HISTORY.md - prompt history and struggles log.
+
+something 
