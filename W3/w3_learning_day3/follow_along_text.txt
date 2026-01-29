@@ -1,0 +1,115 @@
+Python operators 
+Operators are used to perform operations on variables and values. 
+In the example beloew, we use the + operator to add together two values. 
+print(10 + 5)
+
+Although the + operator is often used t oadd together two values, like in the example above, it can also be used to add together a variable and a avalue, or two variables: 
+
+sum1 = 100 + 50 
+sum2 = sum1 + 250 
+sum3 = sum2 + sum2
+
+Division in python 
+Python has two division operators 
+/ division returns a float 
+// floor division returns an int 
+
+The Walrus operator 
+python 3.8 introduced the := operator, known as the walrus operator. it assigns values to varaibles as part of a larger expression: 
+
+Caomparison operators 
+
+== - equal 
+!- - not equal 
+> - greater than 
+< - less than 
+>= - greater than or equal to 
+<= - Less than or equal to 
+
+Examples 
+
+Chaining comparison operators 
+Python allows you to chain comparison operators: 
+
+Python logical operators 
+Logical operators are used to combine conditional statements: 
+
+and Returns True if both statements are true 
+or returns true if one of the statements is true 
+not Reverse the result, returns false if the result is true 
+
+Identity operators 
+Identity operators are used to compare the objects, not if they are equal, but if they are actually the same 
+object, with the same memory location: 
+
+is - returns true if both variables are the same object 
+is not - returns true if both variables are not the same object 
+
+Difference between is and == 
+is - checks if both variables point to the same object in memory 
+== - checks if the values of both variables are equal 
+
+Membership operators 
+In - returns True if a sequence with the specfified value is present in the object | exp x in y 
+not in - returns true if a sequence with the specified value is not present in the object | exp x not in y
+
+
+
+member ship operators also work with strings: 
+
+bitwsie operators 
+
+& == AND - Sets each bt to 1 if both bits are 1 example x & y
+| == OR - sets each bit to 1 if one of two bits is 1 x | y 
+^ == XOR - sets each bit to 1 if only one of two bits is 1 example x ^ y
+~ == NOT - inverts all the bits example  ~x 
+<< == Zero fill left shift - shifts left by pushing zeros in from the right and let the leftmost bits fall off example x << 2 
+>> == Signed right by pushin copies of the leftmost bit in from the left, and let the rightmost bits fall off 
+
+Example 
+The & operator compares each bit and set it to 1 if both are 1, otherwise it is set to 0: 
+
+print(6 & 3)
+
+The binary representation of 6 is 0110 
+The binary representation of 3 is 0011
+
+Then the & operator compares the bits and returns 0010, which is 2 in decimal. 
+
+Example the | operator compares each bit and set it to 1 if one or both is 1, otherwise it is set to 0: 
+print(6 | 3)
+the binary representation of 6 is 0110 
+The binary representation of 3 is 0011
+
+Then the | operator compares the bits and returns 0111, which is 7 in decimal 
+
+Example
+the ^ opertor compares each bit and set it to 1 if only one is 1, otherwise (if both are 1 or both are 0) it is set to 0: 
+
+print(6 ^ 3)
+
+The binary representation of 6 is 0110 
+The binary representation of 3 is 0011
+
+Then the ^ operator comapres the bits and returns 0101, which is 5 in decimal.  
+
+operator precedence 
+
+Example 
+Parentheses has the highest precedence, meaning that expressions inside the parentheses must be evaluated first: 
+
+Operator	Description	
+()	Parentheses	
+**	Exponentiation	
++x  -x  ~x	Unary plus, unary minus, and bitwise NOT	
+*  /  //  %	Multiplication, division, floor division, and modulus	
++  -	Addition and subtraction	
+<<  >>	Bitwise left and right shifts	
+&	Bitwise AND	
+^	Bitwise XOR	
+|	Bitwise OR	
+==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+not	Logical NOT	
+and	AND	
+or	OR	
+
