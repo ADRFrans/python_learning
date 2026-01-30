@@ -1,0 +1,22 @@
+Lesson - Python - sort lists 
+Sort list Alphanumercally 
+Listt objects have a sort() method that will sort the list alphanumerically, ascending, by default:  
+
+Sort Descending 
+To sort descending, use the keyword argument reverse = True: 
+
+Customize Sort Function 
+you can also customize your own function by using the keyword argument key = function. 
+The function will return a number that will be used to sort the list (the lowest number first):
+
+Case Insensitive Sort 
+ 
+by default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters: 
+
+Luckily we can use built-in functions as key functions when sorting a list. 
+so if you want a case-insensitive sort function, use str.lower as a key function: 
+
+Reverse Order 
+What if ou want to reverse the order of a list, regardless of the alphabet? 
+The reverse() method reverses the current sorting order of the elements.
+
