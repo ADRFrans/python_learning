@@ -272,3 +272,101 @@ thisdict = {
 
 thisdict.update({"color": "red"})
 
+# Lesson - python If Statement  
+
+#Example - An if statment is written by using the if keyword 
+a = 22 
+b = 200 
+if b > a : 
+  print("")
+
+#Lesson Python Shorthand if 
+
+#Example  0 one-line if statment 
+a = 5 
+b = 2 
+if a > b: print("")
+
+#example One-line if / else that prints a value 
+
+a = 2 
+b = 330
+
+print("A") if a > b else print ("B")
+
+#Example 
+a = 20 
+b = 20 
+bigger = a if a > b else b 
+print(bigger)
+
+#Example - One line, three outcomes: 
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+
+#xample finding the max of two numbers: 
+x = 15
+y = 20 
+max_value = x if x > 7 else y 
+
+#Example - setting a default value: 
+username = ""
+display_name = username if username else "Guest"
+
+#Example - Test if a is greater than b, and if c is greater than a: 
+a = 200 
+b = 33 
+c = 500 
+if a > b and c > a: 
+  print()
+
+#Example test if a is greater than b or if a is greater than c: 
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+
+#Example - if a is NOT greater than b: 
+a = 33
+b = 200
+if not a > b:
+  print("a is NOT greater than b")
+
+#Example combinning and, or and not: 
+age = 25 
+is_student = False 
+has_discount_code = True
+
+if(age < 18 or age > 65) and not is_student or has_discount_code : 
+   print()
+  
+#Example Using parentheses for complex conditions:
+temperature = 25
+is_raining = False
+is_weekend = True
+
+if (temperature > 20 and not is_raining) or is_weekend:
+  print()
+
+#More Examples 
+#Example - User authentication check:
+
+username = "Tobias"
+password = "secret123"
+is_verified = True
+
+if username and password and is_verified:
+  print()
+else:
+  print()
+
+#Example - Range checking with logical operators:
+
+score = 85
+
+if score >= 0 and score <= 100: 
+   print()
+else:
+   print()

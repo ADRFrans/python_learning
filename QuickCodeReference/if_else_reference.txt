@@ -1,0 +1,45 @@
+Python if/else quick reference
+
+Basics
+- if condition:
+- elif condition:
+- else:
+
+Indentation and blocks
+- Use a colon at the end of the header line.
+- The indented block is required (commonly 4 spaces).
+
+Conditions (comparisons)
+- ==  equal
+- !=  not equal
+- <   less than
+- <=  less than or equal
+- >   greater than
+- >=  greater than or equal
+
+Logical operators
+- and  True if both are True
+- or   True if either is True
+- not  flips True/False
+- Precedence: not > and > or
+- Use parentheses to group complex logic.
+
+Truth tables (summary)
+- and: TT->T, TF->F, FT->F, FF->F
+- or:  TT->T, TF->T, FT->T, FF->F
+
+Shorthand if
+- if condition: action
+
+Conditional expression (ternary)
+- value_if_true if condition else value_if_false
+- Chained example: "A" if a > b else "=" if a == b else "B"
+
+Truthiness
+- Falsy: False, None, 0, 0.0, "", [], {}, set()
+- Truthy: everything else
+
+Common patterns
+- Range check: 0 <= score <= 100
+- Default value: display = name if name else "Guest"
+- Membership: if "model" in d:
