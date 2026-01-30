@@ -1,0 +1,36 @@
+Python tuple quick reference
+
+Create tuples
+- () literal, create an empty tuple
+- (1, 2, 3) literal, create a tuple
+- 1, 2, 3     tuple packing
+- (value,)    single-item tuple (comma required)
+- tuple(iterable) build a tuple from an iterable
+
+Length and type
+- len(my_tuple)   number of items
+- type(my_tuple)  data type check
+
+Indexing and slicing
+- my_tuple[i]      item by index
+- my_tuple[-1]     last item
+- my_tuple[a:b]    slice (start inclusive, end exclusive)
+- my_tuple[:b]     slice from start
+- my_tuple[a:]     slice to end
+- my_tuple[-4:-1]  slice with negative indexes
+
+Membership check
+- 'apple' in my_tuple        True if item exists
+- 'pineapple' not in my_tuple True if item is missing
+
+Tuple unpacking
+- a, b = my_tuple            unpack into variables
+- a, *rest = my_tuple        starred unpacking
+- a, b = b, a                swap values
+
+Immutability
+- my_tuple[i] = value  not allowed (TypeError)
+
+Looping
+- for x in my_tuple:                 loop over items
+- for i in range(len(my_tuple)):     loop over indexes

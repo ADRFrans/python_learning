@@ -1,0 +1,44 @@
+Python set quick reference
+
+Create sets
+- set() constructor, create an empty set
+- {1, 2, 3} literal, create a set with items
+- set(iterable) build a set from an iterable
+
+Length and type
+- len(my_set)   number of items
+- type(my_set)  data type check
+
+Membership check
+- 'apple' in my_set        True if item exists
+- 'pineapple' not in my_set True if item is missing
+
+Add items
+- my_set.add(value)           add one item
+- my_set.update(iterable)     add many items from another iterable
+
+Remove items
+- my_set.remove(value)   remove item, error if missing
+- my_set.discard(value)  remove item if present, no error if missing
+- my_set.pop()           remove and return an arbitrary item
+- my_set.clear()         remove all items
+- del my_set             delete the whole set variable
+
+Set operations
+- a | b   union
+- a & b   intersection
+- a - b   difference
+- a ^ b   symmetric difference
+
+Set methods
+- a.union(b)
+- a.intersection(b)
+- a.difference(b)
+- a.symmetric_difference(b)
+- a.issubset(b)
+- a.issuperset(b)
+- a.isdisjoint(b)
+
+Looping
+- for x in my_set:            loop over items
+- for x in sorted(my_set):    loop in sorted order

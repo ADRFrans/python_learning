@@ -1,0 +1,45 @@
+Python dictionary quick reference
+
+Create dictionaries
+- {} literal, create an empty dict
+- dict() constructor, create an empty dict
+- {'a': 1, 'b': 2} literal, create a dict with items
+- dict([('a', 1), ('b', 2)]) build from key-value pairs
+- dict(a=1, b=2) build from keyword args (keys must be strings)
+
+Length and type
+- len(my_dict)   number of keys
+- type(my_dict)  data type check
+
+Access items
+- my_dict['key']        value by key (KeyError if missing)
+- my_dict.get('key')    value or None if missing
+- my_dict.get('key', 0) value or default if missing
+
+Add and update items
+- my_dict['key'] = value        add or update key
+- my_dict.update(other_dict)    merge/overwrite from another dict
+
+Remove items
+- my_dict.pop('key')        remove and return value
+- my_dict.pop('key', None)  remove or default if missing
+- del my_dict['key']        delete by key
+- my_dict.clear()           remove all items
+- del my_dict               delete the whole dict variable
+
+Keys, values, items
+- my_dict.keys()    view of keys
+- my_dict.values()  view of values
+- my_dict.items()   view of (key, value) pairs
+
+Membership check
+- 'key' in my_dict         True if key exists
+- 'key' not in my_dict     True if key is missing
+
+Looping
+- for k in my_dict:                 loop over keys
+- for k, v in my_dict.items():      loop over key-value pairs
+
+Dictionary comprehensions
+- {k: v for k, v in items}
+- {k: v for k, v in items if condition}
