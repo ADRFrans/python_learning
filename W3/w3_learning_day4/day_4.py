@@ -36,3 +36,17 @@ print(thislist)
 #Example - Reverse the order of the list items: 
 thislist.reverse()
 print(thislist)
+
+#Lesson - Python - Copy Lists 
+
+#Example - Make a copy of a list with the copy() method:
+mylist = thislist.copy()
+print(f"Copied list{mylist}")
+
+#Example - Make a copy of a list with the list() method: 
+mylist = list(thislist)
+print(mylist)
+
+#Example  - make a copy of a list with the : operator 
+mylist = thislist[:]
+print(mylist)

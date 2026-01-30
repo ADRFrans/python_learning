@@ -20,3 +20,10 @@ Reverse Order
 What if ou want to reverse the order of a list, regardless of the alphabet? 
 The reverse() method reverses the current sorting order of the elements.
 
+Lesson - Python - Copy Lists 
+Copy a list 
+you cannot copy a list simply by typing list2 = list1, because: list 2  will only be a reference to list1, and changes in list1 will automatically 
+also be made in list2 
+
+Use the copy() method 
+You can use the built in list method copy() to copy a list.
